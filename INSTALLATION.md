@@ -44,7 +44,12 @@ IMBrowser est basé sur le navigateur portable du projet Flashpoint.
 Il a été modifié pour servir de navigateur principal pendant que vous jouez 
 à *In Memoriam* et s'ouvre directement sur la page de connexion,
 avec Shockwave et Flash déjà intégrés.
+## 4. Le navigateur
 
+Téléchargez l'archive du navigateur en cliquant sur ce lien :
+[Télécharger IMBrowser.zip](https://github.com/sardinant/IMBrowser/releases/latest/download/imbrowser.zip)
+
+Créez un dossier `Navigateur` à la racine de l'installation, puis dézippez-y le contenu de l'archive téléchargée.
 -Créez un dossier `Navigateur` à la racine de votre installation, 
 puis dézippez-y le contenu de `imbrowser.zip`.
 
