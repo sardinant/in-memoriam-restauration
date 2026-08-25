@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Last Ritual Webmail</title>
+	<link rel="stylesheet" href="webmail.css" title="WebmailCSS" type="text/css" media="screen" charset="utf-8">
+	<script src="search.js" charset="utf-8"></script>
+</head>
+<body onload="init();">
+<div id="loginwin">
+<h1>Evidence : The Last Ritual / In Memoriam 2</h1>
+<h2>Webmail</h2>
+<p>Please login using your username.</p>
+<form action="webmail.php" method="post">
+	Username: <input type="text" name="userid">
+	<input type="submit" value="OK">
+</form>
+<br>
+<h2>Search engine</h2>
+Can't find anything online? Try here:
+
+<form action="search.php" method="GET" target="_blank">
+	<input type="text" name="q" id="query" value="">
+	<input type="submit" value="Search">
+</form>
+
+</div>
+</body>
+</html>

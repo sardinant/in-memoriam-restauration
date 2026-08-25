@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>† ANGES † DÉMONS †</title>
+<meta name="description" content="démon,démons,Agrippa">
+<meta name="keywords" content="démon,démons,Agrippa">
+<style>
+a{text-decoration:none;}
+a:hover{color:red;}
+</style>
+<script language="JavaScript">
+<!--
+Today = new Date;
+Jour = Today.getDate();
+Mois = (Today.getMonth())+1;
+Annee = Today.getFullYear();
+Message = "Nous sommes le " + Jour + "/" + Mois + "/" + Annee +". Ce site a été créé le 17/2/2002 et mis à jour le 10/8/2004.";
+//-->
+</script>
+</head>
+<body bgcolor="black" text="white" link="blue" vlink="blue" alink="blue" style="font-family:'Comic sans MS'; background-image:url('../images/etoiles.gif'); background-attachment:fixed;" oncontextmenu=return(false) onselectstart=return(false) ondragstart=return(false) onmouseover="window.status='';return(true);">
+<div id="obj1" style="width:41px; height:35px; position:absolute; left:0px; top:0px; z-index:1; visibility:hidden;">
+<img src="../images/ange_d.gif" width="60" height="60" border="0">
+</div>
+<div id="obj2" style="width:41px; height:35px; position:absolute; left:0px; top:0px; z-index:1; visibility:hidden;">
+<img src="../images/ange_g.gif" width="60" height="60" border="0">
+</div>
+<script>
+<!--
+var isNS = (navigator.appName == "Netscape" && parseInt(navigator.appVersion) >= 4);
+var div1 = (isNS) ? document.obj1 : document.all.obj1.style;
+var div2 = (isNS) ? document.obj2 : document.all.obj2.style;
+var objet;var coord;var coordb = 800;
+objet = new Array(div1,div2);coord = new Array();
+coord[0]=50;coord[1]=50;
+function placeObj(i,px,py) {
+objet[i].left=px;
+objet[i].top=py;
+}
+function voirObj(i) {
+objet[i].visibility="visible";
+}
+function cacheObj(i) {
+objet[i].visibility="hidden";
+}
+var userAgent=navigator.appName + " " + navigator.appVersion;
+var agentInfo=userAgent.substring(0, 12);
+var Xpos = 50;var Ypos = 50;
+if(agentInfo >= "Netscape 4.0")
+{
+document.captureEvents(Event.MOUSEMOVE);
+
+function MouveA(evnt) { //lwf
+Xpos = evnt.pageX;Ypos = evnt.pageY;
+}
+document.onMouseMove = MouveA;
+}
+else {
+
+function MouveB() {
+ofy=document.body.scrollTop;ofx=document.body.scrollLeft;
+Xpos = event.clientX+ofx;Ypos = event.clientY+ofy;
+}
+document.onmousemove = MouveB;
+}
+function vole() {
+x0=coord[0];y0=coord[1];ex=Xpos;ey=Ypos;
+reelx=x0+0.04;reely=y0+0.04;
+rx=reelx;ry=reely;
+rx+=(ex-rx)*0.04;ry+=(ey-ry)*0.04;
+reelx=rx;reely=ry;
+x0=Math.round(reelx);y0=Math.round(reely);
+coord[0]=x0;coord[1]=y0;
+if (x0<=Xpos) {voirObj(0);cacheObj(1);}
+else {voirObj(1);cacheObj(0);}
+placeObj(0,x0-56,y0-32);placeObj(1,x0-4,y0-32);
+setTimeout("vole()", 5);
+}
+vole();
+//-->
+</script>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr align="center">
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr align="center" valign="top">
+<td width="16%" rowspan="4"><img src="../images/ange.gif" width="100" height="100" border="0" alt=""></td>
+<td width="68%"><img src="../images/barre1.gif" width="480" height="8" border="0" alt=""></td>
+<td width="16%" rowspan="4"><img src="../images/gargoyle.gif" width="89" height="85" border="0" alt=""></td>
+</tr>
+<tr align="center" height="100%">
+<td width="68%" style="font-weight:bold; font-size:24pt; letter-spacing:8;">
+<p>Anges&nbsp;<font color="blue">&amp;</font><font color="red">&nbsp;Démons</font></p>
+</td>
+</tr>
+<tr align="center">
+<td width="68%"><img src="../images/barre2.gif" width="480" height="8" border="0"></td>
+</tr>
+<tr align="center">
+<td width="68%" style="font-size:8pt; color:#FF9999;">«&nbsp;On&nbsp;est&nbsp;tellement&nbsp;seul&nbsp;en&nbsp;ce&nbsp;bas&nbsp;monde, que même les Anges et les Démons dînent ensemble&nbsp;»</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr align="center">
+<td>
+<table border="0" cellpadding="2" cellspacing="8" width="770">
+<tr align="center" style="font-size:12pt;">
+<td width="25%" style="border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif"><a href="index.htm">ACCUEIL</a></td>
+<td width="25%" style="border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif"><a href="magie.htm">MAGIE</a></td>
+<td width="25%" style="border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif">QUI SUIS-JE ?</td>
+<td width="25%" style="border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif"><a href="forum.htm">FORUM</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr align="center" valign="top">
+<td height="100%" style="font-size:12pt; color:#FF9999;">
+<p><img src="../images/alastor_ani.gif" width="200" border="0"></p>
+<p>Mes amis et mes ennemis m'appellent <font color="red">Alastor</font><br>Autant dire que personne ne m'appelle...<br>Les premiers n'existent pas et les seconds n'existent plus !</p>
+<table border="0" cellpadding="8" cellspacing="8" width="770">
+<tr>
+<td style="font-size:10pt; border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif">
+<p align="justify">Tout comme toi, apparemment, je m'intéresse à la Magie. Avec un petite préférence pour la Noire, évidemment. Ne pas connaître les secrets occultes d'Agrippa serait considéré comme une faute &quot;professionnelle&quot; par ma hiérarchie car pour moi, &quot;faire le mal&quot; est bien plus qu'un hobby, c'est mon &quot;métier&quot; depuis la nuit des Temps&nbsp;; depuis cette fameuse nuit où «&nbsp;le Dragon et ses anges combattirent contre Michel et ses anges... et ne furent pas les plus forts&nbsp;» (Apocalypse&nbsp;12:7,8)&nbsp;; depuis cette courte défaite qui ne tint qu'à un souffle divin mais qui obligea mon Maître à quitter le Royaume des Cieux et le précipita avec ses fidèles au plus profond de la terre&nbsp;; depuis cette déchéance qui fit de moi, l'ange anonyme, le plus cruel des démons. Comme l'a si justement écrit Antoine Rivarol, «&nbsp;un démon&nbsp;? C'est un ange qui a eu des malheurs&nbsp;; un ange émigré&nbsp;».<br><marquee><img src="../images/alastor1.gif" width="95" height="105" border="0"></marquee><br>On dit de moi que je suis un assassin, un bourreau... C'est vrai. En tant qu'exécuteur en chef des Hautes Oeuvres de Satan et de sa cour infernale, on fait souvent appel à moi pour éliminer quelqu'un. Mon Maître a tant d'ennemis qu'il lui suffit d'ordonner... pour que j'exécute, c'est le cas de le dire.<br>On me dit cruel et sévère... C'est encore vrai. En tant qu'incube et sombromancien, le contraire serait étonnant. Que veux-tu, j'aime la magie et le pouvoir du sang, on ne va pas me changer à mon âge. Même si je ne &quot;travaille&quot; que pour la gloire de mon Maître, rien ne m'empêche d'y prendre goût et de varier mes plaisirs. Cela dit, je te l'avoue, mes armes préférées restent l'épee et le fouet.</p>
+<p align="center"><img src="../images/diable3.gif" width="160" height="160" border="0"></p>
+<p align="justify">On peut bien dire de moi tout le mal que l'on veut... Ce sera toujours vrai, voire même en dessous de la Vérité. Dans l'antique démonologie romaine, mon nom était donné aux mauvais génies d'une maison, les « démons familiers »&nbsp;; c'est gentil de leur part, mais je trouve cette attribution un peu réductrice et peu valorisante. Diable merci, dans la Grèce Antique, Alastor signifiait «&nbsp;Dieu vengeur&nbsp;», littéralement «&nbsp;qui n'oublie pas&nbsp;»&nbsp;; voilà une description qui me ressemble plus. D'ailleurs, je suis avant tout un némésis&nbsp;; tout comme cette Déesse personnifie la vengeance divine dans la mythologie grecque, j'incarne pour ma part, la justice maligne. Depuis la nuit des Temps et pour l'Eternité.</p>
+</td>
+</tr>
+</table>
+<p>Je reconnais que ce portrait ne m'avantage pas, mais il m'est fidèle.<br>Pour que tu ne gardes pas une mauvaise image de moi, je t'offre un autre rituel&nbsp;:</p>
+<table border="0" cellpadding="8" cellspacing="8" width="770">
+<tr valign="top" align="center">
+<td style="font-size:10pt; border-width:2; border-color:red; border-style:ridge;" background="../images/fond2.gif">
+<p align="justify">Dans ce rituel, la déesse Némésis, déïté du destin et de la vengeance, a le rôle d'opposé complémentaire de l'égo, se référant au soi intime en tant que centre des deux personnalités. Des habitudes et des actes allant à l'encontre de ses désirs réels créent des opposés de même force et forment, par là même, une anti-personnalité de l'ego, identifiée dans ce cas au principe de Némésis.<br>Sur le plan de la réalité, des troubles dûs aux actions commises contre ses désirs subconscients peuvent être éliminés par un rituel d'union avec ce frère(ou sœur)-démon personnel, ce qui permet à chacun d'atteindre son soi intime. L'effet de ce rituel, s'il est correctement accompli, est fatal, par définition. Par conséquent, l'opération est strictement limitée à la partie de la psyché que le mage souhaite explorer. Durant ce rituel, un sceau représentant cette partie de la psyché est activé avec force afin que le mage puisse chercher des réponses à ses problèmes à l'interieur de la partie de sa personnalité qu'il a choisi d'explorer. Dans ce but, aucun désir ou vœu spécifique ne peut être utilisé, c'est là une restriction nécessaire pour éviter d'être submergé par des effets indésirables. Le mage doit en être parfaitement conscient lorsqu'il construit le sceau.</p>
+<p style="font-size:12pt; color:red;">LA CONJURATION DE NÉMÉSIS</p>
+<p><font color="red">1.</font>&nbsp;Bannissement.</p>
+<p><font color="red">2.</font>&nbsp;Le rituel se pratique en position assise sur le sol comme celle de la rune Peorth.<br>La tête peut reposer sur la partie inférieure des bras et le visage doit être couvert par le capuce de la robe. </p>
+<p><font color="red">3.</font>&nbsp;Exposé de son intention&nbsp;:<br>«&nbsp;Avec l'aide de ce sceau, je veux atteindre le centre de mon être par l'union avec mon opposé&nbsp;»</p>
+<p><font color="red">4.</font>&nbsp;L'incantation est prononcée tout en visualisant un personnage ailé du sexe opposé qui s'approche du mage.<br>Ce personnage porte le sceau choisi sur sa poitrine, il est à la fois beau et terrifiant. </p>
+<p><font color="red">5.</font>&nbsp;Incantation&nbsp;:</p>
+<p style="font-size:11pt; color:#00CCFF;">Viens à moi, ô&nbsp;Némésis, puissante et terrifiante sœur bien aimée<br>Viens à moi, ô&nbsp;Némésis, Toi qui es la déesse de mon Dieu, Toi qui es le démon de mon Démon<br>Viens à moi, ô&nbsp;Némésis, Toi qui es le démon de mon Dieu, Toi qui es la déesse de mon Démon<br>Viens à moi, ô&nbsp;Némésis, Toi qui es la part de moi-même que je ne suis pas<br>Viens à moi, ô&nbsp;Némésis, Toi qui es le contrepoids de mon destin<br>Viens à moi, ô&nbsp;Némésis, Toi dont les ailes nous emportent vers notre centre commun Kia<br>Viens à moi, ô&nbsp;Némésis, Toi qui es ma peur ultime, Toi qui es mon désir ultime<br>Viens à moi, ô&nbsp;Némésis, Toi avec qui l'union est un soupir d'extase et le silence de la mort<br>Viens à moi, ô&nbsp;Némésis, car tu es mon chemin et je suis ton but,<br>je fais appel à toi pour te rencontrer dans ce sceau<br>Viens à moi, ô&nbsp;Némésis, et guide moi à travers ce sceau vers notre centre commun Kia</p>
+<p>Commencer une hyperventilation pendant la lecture de l'incantation.<br>Le personnage visualisé avec le sceau se rapproche de plus en plus<br>jusqu'à se fondre dans votre propre corps. A ce moment là, criez&nbsp;:</p>
+<p style="font-size:11pt; color:#00CCFF;">ZodACAM VaPAAHe ANANAEL ZoDA Ah&nbsp;!<br><span style="font-size:8pt; color:white;)">(J'agite les ailes de la sagesse secrète qui est en moi&nbsp;!)</span></p>
+<p><font color="red">6.</font>&nbsp;Bannissement et/ou rire</p>
+<p><img src="../images/penta.gif" width="103" height="98" border="0" alt=""></p>
+</td>
+</tr>
+</table>
+<p style="font-size:36pt; font-family:Wingdings;"><b><a href="#" title=" Retour au menu principal ">G</a></b></p>
+</td>
+</tr>
+<tr align="center">
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr align="center">
+<td width="16%" rowspan="4"><img src="../images/gargoyle.gif" width="89" height="85" border="0" alt=""></td>
+<td width="68%" style="font-size:8pt; color:#FF9999;"><script language="JavaScript">document.write(Message);</script></td>
+<td width="16%" rowspan="4"><img src="../images/ange.gif" width="100" height="100" border="0" alt=""></td>
+</tr>
+<tr align="center">
+<td width="68%"><img src="../images/barre2.gif" width="480" height="8" border="0"></td>
+</tr>
+<tr align="center" height="100%">
+<td width="68%"><a href="mailto:alastor@anges-demons.net?subject=www.anges-demons.net" title=" Écris-moi ! "><img src="../images/A.gif" border="0" height="30" alt=""><img src="../images/L.gif" height="30" border="0" alt=""><img src="../images/A.gif" height="30" border="0" alt=""><img src="../images/S.gif" height="30" border="0" alt=""><img src="../images/T.gif" height="30" border="0" alt=""><img src="../images/O.gif" height="30" border="0" alt=""><img src="../images/R.gif" height="30" border="0" alt=""></a></td>
+</tr>
+<tr align="center">
+<td width="68%" style="font-size:8pt; color:blue;">www.anges-demons.net © 2002-2004</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

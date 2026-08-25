@@ -1,0 +1,51 @@
+# =============================================================
+#  In Memoriam — restauration de l'infrastructure web
+#  Fichiers exclus du depot
+# =============================================================
+
+# --- etat de partie -------------------------------------------
+# Le bloc-notes de SKL Network : c'est la partie de l'utilisateur.
+# Il se recree au premier lancement depuis bloc_notes_defaut.json.
+www/www.skl-network.com/fr/bloc/bloc_notes.json
+
+# --- sorties de travail ---------------------------------------
+rapport.txt
+*.log
+www/www.inmemoriamdev.com/scriptIM/log.txt
+www/www.inmemoriamdev.com/scriptIM/password.txt
+
+# --- sauvegardes ----------------------------------------------
+*.bak
+*.orig
+*~
+*.tmp
+
+# --- donnees de travail ---------------------------------------
+# Inventaires et manifestes de recuperation : utiles a l'auteur,
+# sans interet pour qui installe le paquet.
+www/_bruit/
+
+# --- systeme --------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+._*
+
+# --- editeurs -------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# --- navigateur portable --------------------------------------
+# Trop volumineux pour le depot, et binaire fige : il est
+# distribue en release attachee.
+navigateur/
+
+# =============================================================
+#  NE PAS IGNORER
+# =============================================================
+# Le .htaccess de xineph.com conditionne le fonctionnement des
+# films Shockwave. Git ne l'ignore pas par defaut, mais la regle
+# est explicite ici pour qu'aucun ajout ulterieur ne le masque.
+!www/www.xineph.com/.htaccess
+!.htaccess

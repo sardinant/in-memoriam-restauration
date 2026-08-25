@@ -1,0 +1,22 @@
+.lienbio {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #7E2E2D;
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+.lienbio:hover {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #D9D309;
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+A {COLOR: #7E2E2D; FONT-FAMILY: Times New Roman, Times, serif; FONT-SIZE:
+12pt; TEXT-DECORATION: none
+}
+A:hover {COLOR: #7E2E2D; FONT-FAMILY: Times New Roman, Times, serif;
+FONT-SIZE: 12pt; TEXT-DECORATION: none
+}

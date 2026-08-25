@@ -1,0 +1,11 @@
+body	{font-family:Verdana; font-size:10pt; color:rgb(0,0,0); background-color:rgb(170,85,170); margin:0; scrollbar-base-color:rgb(170,85,170);}
+table	{font-size:10pt;}
+a:link      {font-weight:bold; color:rgb(0,0,0); text-decoration:none;}
+a:visited   {font-weight:bold; color:rgb(0,0,0); text-decoration:none;}
+a:hover     {font-weight:bold; color:rgb(64,192,64); text-decoration:none;}
+a.navig:link      {font-weight:normal; font-style:italic; color:rgb(160,0,160); text-decoration:none;}
+a.navig:visited   {font-weight:normal; font-style:italic; color:rgb(160,0,160); text-decoration:none;}
+a.navig:hover     {font-weight:normal; font-style:italic; color:rgb(64,192,64); text-decoration:none;}
+a.sef:link      {font-weight:normal; color:rgb(0,0,0); font-style:italic; text-decoration:none;}
+a.sef:visited   {font-weight:normal; color:rgb(0,0,0); font-style:italic; text-decoration:none;}
+a.sef:hover     {font-weight:normal; color:rgb(64,192,64); font-style:italic; text-decoration:none;}

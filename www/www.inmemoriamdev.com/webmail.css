@@ -1,0 +1,45 @@
+body {background-color: black;color:white;font-family: monospace;}
+
+#loginwin { text-align: center; position: relative;margin-top: 12%;}
+
+td {border: 1px solid black;padding: 10px;background-color: white;color: black;font-family: sans-serif;}
+
+.infos {font-family:monospace; vertical-align: top;}
+
+table{ margin-top: 20px; margin-left: auto; margin-right: auto; max-width: 900px;}
+
+#header {text-align: center; margin-top:20px;}
+
+#userreload { text-align:center; }
+
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+#results {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: left;
+	max-width: 900px;
+	margin:auto;
+	margin-top:15px;
+}
+
+#results > li {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+#results > li > a {
+	color: black;
+}
+
+a:hover, #results > li > a:hover {
+	color: #777;
+}

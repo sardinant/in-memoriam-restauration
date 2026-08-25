@@ -1,0 +1,25 @@
+Patch officiel Lexis Numerique — Patch_InMemoriam_2005_09_05.EXE
+Contenu extrait a la main (l'installeur Wise refuse de s'executer
+sur une installation copiee, faute de cle de registre).
+
+18 casts de scripts, a copier dans :
+    <jeu>\Data\Media\Dir\Cst\
+
+Chemins d'auteur retrouves dans les fichiers : le patch cumule
+trois vagues de correctifs (Patch 1.1, Patch 1.2, Patch 2.2).
+
+Scenes corrigees :
+    scp_012  scp_107  scp_108  scp_109
+    scp_401  scp_406
+    scp_602  scp_610
+    scp_701  scp_704  scp_707
+    scp_801  scp_802  scp_805
+    scp_901  scp_904  scp_905  scp_910
+
+NON corrigee : scp_103 (enigme BOS). Aucun fichier du patch ne
+mentionne s103 ni BOS. Le gel documente dans le manuel d'origine
+sous le nom de "phenomene du Phoenix" n'a jamais recu de correctif
+officiel.
+
+Avant de copier : sauvegarder les fichiers d'origine de 2003.
+Ils ont une valeur documentaire (version de pressage, 10/10/2003).

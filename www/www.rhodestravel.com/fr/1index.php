@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>rhodes-travel - Epicharmou</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#0066FF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="154" border="0" cellpadding="0" cellspacing="0" bgcolor="#0066FF">
+  <tr> 
+    <td align="center"> 
+      <table width="154" border="0" cellpadding="0" cellspacing="0" bgcolor="#004A99">
+        <tr> 
+          <td align="center"><img src="bi/bild1.gif" width="131" height="100"></td>
+        </tr>
+      </table>
+      <br>
+      <a href="http://g.msn.fr/FR1000/9493" target="_blank"><img src="bi/120x90_dialogue.gif" width="120" height="90" border="0"></a> 
+      <br>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+<table width="140" height="30" border="0" cellpadding="0" cellspacing="0" bgcolor="#004A99">
+        <tr> 
+          <td><font color="#CCFF00" size="2" face="Arial, Helvetica, sans-serif"><b>&nbsp;Accueil</b></font></td>
+        </tr>
+      </table>
+      <br> 
+      <table width="140" height="45" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCFF00">
+        <tr> 
+          <td width="3" height="32"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="137"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif"><b><a href="Daten.html" target="_top">Rhodes 
+            en <br>
+            quelques dates</a></b></font></td>
+        </tr>
+      </table>
+      <br>
+      <table width="140" height="120" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCFF00">
+        <tr> 
+          <td colspan="3"><font size="2" color="#004A99" face="Arial, Helvetica, sans-serif"><b>&nbsp;Suivez 
+            le Guide !</b></font></td>
+        </tr>
+        <tr> 
+          <td width="3">&nbsp;</td>
+          <td width="8"><font size="2" color="#004A99" face="Arial, Helvetica, sans-serif">-<br>
+            -<br>
+            -<br>
+            <br>
+            -<br>
+            <br>
+            </font></td>
+          <td><font size="2" color="#004A99" face="Arial, Helvetica, sans-serif"><a href="Stadt.html" target="_top"><b>L</b>a 
+            ville de Rhodes</a><br>
+            <a href="Ostkuste.html" target="_top"><b>C</b>&ocirc;te 
+            orientale</a><br>
+            <a href="Westkuste.html" target="_top"><b>C</b>&ocirc;te 
+            occidentale<br>
+            et arri&egrave;re pays</a><br>
+            <a href="Ausflug.html" target="_top"><b>E</b>scapade sur l' &icirc;le<br>
+             de Symi</a></font></td>
+        </tr>
+      </table>
+      <br>
+      <table width="140" height="35" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCFF00">
+        <tr> 
+          <td width="3" height="32"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="137"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif"><b><a href="Rate.html" target="_top">Conseils 
+            pratiques</a></b></font></td>
+        </tr>
+      </table>
+      <br>
+      <table width="140" height="45" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCFF00">
+        <tr> 
+          <td width="3" height="32"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="137"><font color="#004A99" size="2" face="Arial, Helvetica, sans-serif"><b><a href="Gastronomie.html" target="_top">Gastronomie 
+            &amp; <br>
+            vie nocturne</a></b></font></td>
+        </tr>
+      </table> 
+      <p><font color="#FFFFFF" size="2" face="Arial, Helvetica, sans-serif"><b>Vous 
+        &ecirc;tes le<br>
+        visiteur n&deg;</b></font><br>
+        <a href='http://www.skyminds.net/source/' target='_blank'><img src='../bi/ct/1.gif' alt="" border="0" height="20" width="16"><img src='../bi/ct/2.gif' alt="" border="0" height="20" width="16"><img src='../bi/ct/1.gif' alt="" border="0" height="20" width="16"><img src='../bi/ct/7.gif' alt="" border="0" height="20" width="16"><img src='../bi/ct/2.gif' alt="" border="0" height="20" width="16"><img src='../bi/ct/3.gif' alt="" border="0" height="20" width="16"></a></p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

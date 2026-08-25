@@ -1,0 +1,35 @@
+BLOC-NOTES SKL NETWORK — scripts reimplementes
+================================================
+
+Destination :
+    C:\UwAmp\www\www.skl-network.com\fr\bloc\
+
+Copier TOUS les fichiers de ce dossier a cet emplacement, en ecrasant
+identifier.php, affichage.php et deconnexion.php qui sont des pages
+d'erreur archivees, pas des scripts.
+
+Pourquoi : les scripts serveur du bloc-notes vivaient chez Lexis et
+n'ont jamais ete archives. La Wayback Machine n'a capture que des
+messages d'erreur PHP figes, avec les chemins /home/sites_web/ du
+serveur d'epoque. D'ou l'avertissement "Cannot modify header
+information" quel que soit l'identifiant saisi.
+
+Fonctionnement :
+  - identifier.php accepte n'importe quel identifiant et mot de passe
+    (les comptes SKL n'existent plus et n'ont pas ete archives)
+  - les notes sont stockees dans bloc_notes.json, cree au premier
+    lancement a partir de bloc_notes_defaut.json
+  - creation, modification, suppression et lecture en fenetre
+    fonctionnent, aux memes URL et avec les memes champs qu'a l'origine
+
+Les fichiers _entete.html, _pied.html, _gabarit_ligne.html et
+_gabarit_form.html sont extraits des pages archivees : la mise en page
+est donc celle d'origine, au pixel pres.
+
+Note d'archive : les quatre sujets par defaut ("site karen", "site
+coequipier gery", "sun puzzle", "ss") sont ceux d'un vrai joueur,
+conserves par accident dans la capture de affichage.php. Leur contenu,
+lui, n'a pas ete archive. Supprimer bloc_notes.json remet cet etat.
+
+Permissions : le dossier doit etre accessible en ecriture pour
+qu'Apache puisse enregistrer bloc_notes.json.

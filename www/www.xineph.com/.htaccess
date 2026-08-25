@@ -1,0 +1,25 @@
+# .htaccess — a placer a la RACINE du site
+#   C:\UwAmp\www\www.xineph.com\.htaccess
+#
+# Route toutes les demandes de films Director vers le limiteur de debit,
+# qui les sert progressivement. Sans cela, le fichier arrive trop vite et
+# les films restent bloques sur leur ecran de chargement.
+#
+# stream_dcr.php doit se trouver a cote de ce fichier.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # ne pas boucler sur le limiteur lui-meme
+    RewriteCond %{REQUEST_URI} !^/stream_dcr\.php$
+
+    # uniquement les fichiers Director qui existent reellement
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^(.+\.(?:dcr|dxr|dir|cct|cst|cxt|swa))$ /stream_dcr.php?f=$1 [L,QSA,NC]
+</IfModule>
+
+# Pas de compression sur ces fichiers : elle fausserait Content-Length,
+# donc le bytesTotal que le film recoit.
+<IfModule mod_deflate.c>
+    SetEnvIfNoCase Request_URI \.(?:dcr|dxr|dir|cct|cst|cxt|swa)$ no-gzip dont-vary
+</IfModule>
