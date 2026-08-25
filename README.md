@@ -16,6 +16,8 @@ Les mêmes problèmes touchent le second épisode, *Le Dernier Rituel*,
 pour lequel Simon Rodriguez a publié une solution complète en 2025. Ce
 projet suit la même approche et s'appuie sur une partie de son travail.
 
+https://github.com/kosua20/evidence-last-ritual-websites/tree/main
+
 ## Objectifs
 
 Le serveur local installé sur la machine remplit deux rôles :
