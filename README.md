@@ -137,9 +137,9 @@ les événements souris destinés aux cases.
 *Contournement.* Brider la fréquence d'images du processus. Un limiteur
 comme **BES** (Battle Encoder Shirasé) fonctionne. Les limiteurs GPU et
 les enveloppes DirectDraw n'ont **aucun effet** : Director compose la
-scène en logiciel puis l'affiche via GDI. Un compteur d'images est
-intégré au jeu : taper `lexis19` en cours de partie active le mode debug,
-puis `Maj+F` affiche la fréquence.
+scène en logiciel puis l'affiche via GDI. Pour mesurer le résultat, le
+jeu embarque un compteur d'images — voir la section *Codes de
+développement*.
 
 *Correction propre.* Ajouter `puppetTempo(60)` à la fin du handler
 `prepareMovie` du script `INIT SHARED`, dans `c_com`. Une ligne, valable
@@ -165,6 +165,36 @@ par défaut, réglable en tête du script — ce qui rétablit les rapports
 d'avancement. Aucun fichier du jeu n'est modifié. Le `.htaccess` fourni
 route les demandes vers lui et désactive la compression, qui fausserait
 `Content-Length`.
+
+---
+
+## Codes de développement
+
+Des codes laissés par les développeurs sont toujours actifs dans le jeu.
+Ils ne figurent dans aucune documentation d'époque : ils ont été
+retrouvés en décompilant le script `INIT SHARED` du cast `c_com`.
+
+**Activation.** Taper **`lexis19`** en cours de partie, sans rien valider.
+Le gestionnaire clavier écoute en permanence ; dès la dernière lettre,
+le mode est actif. Comme il est enregistré dans la sauvegarde, il le
+reste d'une session à l'autre.
+
+**Raccourcis débloqués :**
+
+| Touches | Effet |
+|---|---|
+| `Maj+F` | Affiche le compteur d'images par seconde |
+| `Maj+→` | Valide l'énigme en cours |
+| `Maj+↑` | Passe au niveau suivant |
+| `Maj+↓` | Réduit la fenêtre |
+| `Maj+←` | Coupe le texte d'aide en cours |
+
+**Codes propres à certaines énigmes**, sur le même principe :
+`symi1975`, `mithra` et `quattro`.
+
+Le compteur d'images est particulièrement utile ici : c'est lui qui
+permet de vérifier le bridage nécessaire à l'énigme BOS, décrite plus
+bas.
 
 ---
 
