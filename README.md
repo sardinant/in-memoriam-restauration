@@ -111,6 +111,7 @@ Les contenus que le joueur doit découvrir seul sont exclus de l'index.
 ## Ce qu'il reste à accomplir
 
 - **Restaurer les assets manquants :** Continuer la recherche des médias non capturés par les robots d'archivage (notamment les vidéos et messages de `xineph.com`).
+- **Assets et interfaces multilingues :** Les versions internationales des sites n'ont pas encore été traitées, et la page de connexion (*login*) multilingue reste à développer.
 - **Exploiter le DVD Bonus :** Fouiller le DVD de la version Collector, qui devrait contenir une partie des fichiers web disparus (comme la vidéo post-game de Karen).
 - **Ressusciter les emails du Phœnix et le post-game :** Rendre jouables toutes les énigmes post-game et trouver une solution pour restaurer les emails envoyés par le tueur. Ceux-ci n'étaient pas dans le code du jeu mais envoyés en temps réel par Éric Viennot et les équipes de Lexis Numérique à l'époque.
 - **Archivage de la communauté :** Héberger et archiver le wiki de la *Confrérie Anti-Phoenix* dans son état de 2006.
