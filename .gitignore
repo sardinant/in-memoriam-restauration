@@ -49,3 +49,14 @@ navigateur/
 # est explicite ici pour qu'aucun ajout ulterieur ne le masque.
 !www/www.xineph.com/.htaccess
 !.htaccess
+
+# oublis du premier commit
+www/www.inmemoriamdev.com/log.txt
+www/www.inmemoriamdev.com/password.txt
+www/www.inmemoriamdev.com/scriptIM2/
+www/www.inmemoriamdev.com/*old*.php
+www/www.inmemoriamdev.com/search[0-9].php
+www/www.inmemoriamdev.com/indexer[0-9].php
+www/README.md
+www/README-fr.md
+toutes_urls.txt
