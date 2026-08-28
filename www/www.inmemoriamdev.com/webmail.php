@@ -3,7 +3,7 @@
 // Liste + volet de lecture, habillages d'epoque cales sur captures d'origine.
 // Parametres (POST ou GET) : userid, m, skin
 
-include("scriptIM2/credentials.php");
+include("credentials.php");
 
 function val($k, $d = '') {
     if (isset($_POST[$k])) return $_POST[$k];
